@@ -34,7 +34,7 @@ main strong{
 body{
     width: 100%; 
     height: 100vh;
-    background: url(../img/nyc-13.jpg) center center no-repeat;
+    background: url(../img/nyc-133.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
@@ -139,6 +139,12 @@ footer{
 
 
 @media (max-width:750px){
+    body{
+        background: url(../img/nyc-13.jpg) center center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
     main h1{
         font-size: 30px;
     }
