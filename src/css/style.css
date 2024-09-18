@@ -141,7 +141,7 @@ footer{
 @media (max-width:750px){
     body{
         background: url(../img/nyc-13.jpg) center center no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-attachment: fixed;
 
     }
