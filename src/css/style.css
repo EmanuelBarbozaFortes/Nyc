@@ -32,12 +32,14 @@ main strong{
 }
 
 body{
+  background: linear-gradient(to top, rgb(67, 153, 252), rgba(0, 0, 255, 0.575));
+}
+main{
     width: 100%; 
     height: 100vh;
     background: url(../img/nyc-133.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 .background{
     margin: 0 auto;
@@ -102,7 +104,7 @@ body{
 .galeria{
     border: solid rgb(93, 25, 13);
     padding:20px;
-    background: linear-gradient( to bottom, rgb(214, 183, 183), rgb(255, 255, 255));
+    background: linear-gradient( to bottom, rgb(233, 238, 158), rgb(255, 255, 255));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -139,12 +141,12 @@ footer{
 
 
 @media (max-width:750px){
-    body{
+   /* main{
         background: url(../img/nyc-13.jpg) center center no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
         background-attachment: fixed;
 
-    }
+    } */
     main h1{
         font-size: 30px;
     }
